@@ -29,3 +29,14 @@ Then open http://localhost:8000
    | CNAME | www  | YOUR-GITHUB-USERNAME.github.io |
 
    Remove any default Squarespace A/CNAME records for `@` and `www` that conflict.
+
+## Updating the resources page
+
+The resources page reads `resources.json`, which is built from the Google Sheet.
+
+1. In Google Sheets: File → Download → **Web page (.html, zipped)**. (Not CSV — CSV drops the links.)
+2. Put the zip in this folder and run:
+
+       python3 tools/build_resources.py "Your download.zip"
+
+3. Commit and push `resources.json`. The zip itself is ignored by git.

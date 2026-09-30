@@ -183,6 +183,7 @@ section + section {
 }
 
 .date-day {
+  white-space: nowrap;
   font-size: 44px;
   font-weight: 800;
   line-height: 1;
@@ -419,4 +420,13 @@ section + section {
 .res-empty {
   margin-top: 40px;
   color: var(--muted);
+}
+
+.date-unit {
+  font-size: 0.45em;
+  margin-left: 2px;
+}
+
+html[data-lang="ja"] .date {
+  grid-template-columns: 124px 1fr;
 }

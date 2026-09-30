@@ -1,0 +1,766 @@
+[
+ {
+  "name": "Rikaitan/Yomitan",
+  "href": null,
+  "stars": 3,
+  "beginner": true,
+  "description": "mouse over vocab and kanji for readings, definitions, and morphology",
+  "price": "free",
+  "tech": "browser extension",
+  "kind": "dictionary",
+  "language": "English",
+  "updated": "yes",
+  "link_extra": [
+   {
+    "text": "Firefox",
+    "href": "https://addons.mozilla.org/en-US/firefox/addon/rikaitan/"
+   },
+   {
+    "text": ", "
+   },
+   {
+    "text": "Chrome",
+    "href": "https://chromewebstore.google.com/detail/rikaitan-popup-dictionary/pnjdahdadbkhcfamabafkjbjblbgkodk"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "text": "Great for automatically creating Anki flashcards from vocab you encounter in the wild! Even if you don't use Anki (you should!), this is the fastest and best (tbh) way to look up vocab in browser."
+    }
+   ],
+   [
+    {
+     "text": "For Anki integration: from Anki, install the "
+    },
+    {
+     "text": "AnkiConnect",
+     "href": "https://ankiweb.net/shared/info/2055492159"
+    },
+    {
+     "text": " addon in order to allow Rikaitain to create Anki cards. This is also doable on mobile, see "
+    },
+    {
+     "text": "this guide!",
+     "href": "https://lazyguidejp.github.io/jp-lazy-guide/setup/"
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Anki",
+  "href": "https://apps.ankiweb.net/",
+  "stars": 3,
+  "beginner": true,
+  "description": "Spaced-repetition system (SRS) flash card program",
+  "price": "free",
+  "tech": "program, app, website",
+  "kind": "study",
+  "language": "English",
+  "updated": "yes",
+  "link_extra": [],
+  "notes": [
+   [
+    {
+     "text": "The BEST flash card/SRS platform around. You can study pre-built decks like Kaishi 1.5k, or build your own decks (e.g. with Rikaitan!).  If you are beginner, start with a beginner vocab deck! If you are intermediate but find your vocab lacking, it is worthwhile downloading a vocab deck, then browsing the cards and \"suspending\" all of the vocab you already know by heart (or just relearn them for practice.) If you are more upper intermediate, it is recommended to mine your own vocab from native content, but you may find some prebuilt decks useful."
+    }
+   ],
+   [
+    {
+     "text": "How to Use Anki",
+     "href": "https://leananki.com/how-to-use-anki-tutorial/"
+    },
+    {
+     "text": " ・ "
+    },
+    {
+     "text": "Kaishi 1.5k Basic Vocab Deck",
+     "href": "https://ankiweb.net/shared/info/1196762551"
+    },
+    {
+     "text": "・ "
+    },
+    {
+     "text": "Beginner's Vocab from Anime Deck",
+     "href": "https://ankiweb.net/shared/info/911122782"
+    },
+    {
+     "text": "\n   Anki is free on desktop and Android (AnkiDroid), but for a free iOS app you may have to hunt around. The official app on iOS is paid, but you can also access your decks and do reviews from Safari by going to "
+    },
+    {
+     "text": "ankiweb.net",
+     "href": "http://ankiweb.net/"
+    },
+    {
+     "text": ".\nIt may be easier to search for prebuilt decks via Google/Reddit/etc. than it is to use Ankiweb's built-in search."
+    }
+   ]
+  ]
+ },
+ {
+  "name": "jpdb.io",
+  "href": "https://jpdb.io",
+  "stars": 2,
+  "beginner": true,
+  "description": "Comprehensive dictionary; pre-generated vocab decks for books/anime; SRS platform",
+  "price": "free",
+  "tech": "website",
+  "kind": "dictionary, study platform",
+  "language": "English",
+  "updated": "yes",
+  "link_extra": [],
+  "notes": [
+   [
+    {
+     "text": "More thorough than most dictionaries in that it compiles lots of info about every word or kanji. Includes kanji decompositions, example sentences, examples words that use a particular kanji, example kanji that use a kanji, frequency info, ..."
+    }
+   ],
+   [
+    {
+     "text": "See for example: "
+    },
+    {
+     "text": "解読-Vocab",
+     "href": "https://jpdb.io/search?q=%E8%A7%A3%E8%AA%AD&lang=english#a"
+    },
+    {
+     "text": " and "
+    },
+    {
+     "text": "解-Kanji",
+     "href": "https://jpdb.io/kanji/%E8%A7%A3#a"
+    },
+    {
+     "text": ". You can even search for an anime and see full vocab lists for each episode, e.g. "
+    },
+    {
+     "text": "here",
+     "href": "https://jpdb.io/anime/7451/blue-period"
+    },
+    {
+     "text": "! About jpdb's SRS platform - it could kind of be an Anki alternative, if you really don't want to use Anki. it automatically teaches you dependencies of a word before that word, including kanji components. For example, before teaching you 読解, you will learn 言,売,読; and 角,刀,牛,解. (It gets much more granular than that actually). Also, it tracks what you know across decks, which is super neat!\nThere are decks for Genki and Minna no Nihongo if you happen to be learning using one of those!"
+    }
+   ]
+  ]
+ },
+ {
+  "name": "WaniKani",
+  "href": "http://wanikani.com/",
+  "stars": 2,
+  "beginner": true,
+  "description": "learn radicals, kanji, and vocab by SRS",
+  "price": "paid",
+  "tech": "website/program",
+  "kind": "study",
+  "language": "English",
+  "updated": "yes",
+  "link_extra": [],
+  "notes": [
+   [
+    {
+     "text": "Free to access pages for kanji and vocab, e.g.: "
+    },
+    {
+     "text": "https://www.wanikani.com/kanji/解",
+     "href": "https://www.wanikani.com/kanji/%E8%A7%A3"
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Tofugu",
+  "href": "https://www.tofugu.com/learn-japanese/",
+  "stars": 2,
+  "beginner": true,
+  "description": "complete guide on how to start studying and lots of great articles on many topics",
+  "price": "free",
+  "tech": "website",
+  "kind": "guide",
+  "language": "English",
+  "updated": "yes",
+  "link_extra": [],
+  "notes": [
+   [
+    {
+     "text": "worth reading even (especially?) if you are not a beginner"
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Manabi Reader (iOS only)",
+  "href": "https://reader.manabi.io/",
+  "stars": 1,
+  "beginner": false,
+  "description": "all-in-one reading platform: web browser, curated reading content, manga reader, flashcard creation, etc., with one-tap dictionary lookups",
+  "price": "free or premium subscription",
+  "tech": "app",
+  "kind": "dictionary, study platform",
+  "language": "English",
+  "updated": "yes",
+  "link_extra": [],
+  "notes": []
+ },
+ {
+  "name": "Ttsu Reader",
+  "href": "https://reader.ttsu.app/",
+  "stars": 1,
+  "beginner": false,
+  "description": "E-book reader for web browsers (enables Yomitan/Rikaikun etc lookups for e-books!)",
+  "price": "Free",
+  "tech": "website/webapp",
+  "kind": "platform",
+  "language": "English?",
+  "updated": "yes?",
+  "link_extra": [],
+  "notes": [
+   [
+    {
+     "text": "Upload your e-book (it stays local) and you can read it in browser. Reading in-browser enables dictionary lookups with browser add-ons like Rikaitan/Yomitan, making it easy to add flashcards to Anki for example."
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Bunpro",
+  "href": "https://bunpro.jp/",
+  "stars": 1,
+  "beginner": true,
+  "description": "SRS platform, but for grammar!",
+  "price": "paid",
+  "tech": "website",
+  "kind": "study",
+  "language": "English",
+  "updated": "yes",
+  "link_extra": [],
+  "notes": [
+   [
+    {
+     "text": "If you are an Anki user, you may instead check out grammar decks such as this "
+    },
+    {
+     "text": "Dictionary of Japanese Grammar deck",
+     "href": "https://ankiweb.net/shared/info/843402109"
+    },
+    {
+     "text": ", though it won't be as structured or intentional as Bunpro's platform."
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Natively",
+  "href": "https://learnnatively.com/",
+  "stars": 1,
+  "beginner": false,
+  "description": "Goodreads-style website specifically for Japanese learners",
+  "price": "free",
+  "tech": "website",
+  "kind": "study",
+  "language": "English",
+  "updated": "yes",
+  "link_extra": [],
+  "notes": [
+   [
+    {
+     "text": "Great way to find books that are at your level and track your reading progress"
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Jo Mako's Japanese Spreadsheet",
+  "href": "https://docs.google.com/spreadsheets/d/1ukDIWSkh_xvpppPbgs1nUR2kaEwFaWlsJgZUlb9LuTs/edit?pli=1&gid=868511478#gid=868511478",
+  "stars": 1,
+  "beginner": true,
+  "description": "Huge resource compilation (like this list, but better)",
+  "price": "free",
+  "tech": "spreadsheet",
+  "kind": "guide",
+  "language": "English",
+  "updated": "yes",
+  "link_extra": [],
+  "notes": []
+ },
+ {
+  "name": "Learn Hiragana: Tofugu's Ultimate Guide",
+  "href": "https://www.tofugu.com/japanese/learn-hiragana/",
+  "stars": 0,
+  "beginner": true,
+  "description": "Mnemonics for all hiragana",
+  "price": "free",
+  "tech": "website",
+  "kind": "study",
+  "language": "English",
+  "updated": "no",
+  "link_extra": [],
+  "notes": [
+   [
+    {
+     "text": "on Tofugu"
+    }
+   ]
+  ]
+ },
+ {
+  "name": "NHK News Web Easy",
+  "href": "https://www3.nhk.or.jp/news/easy/",
+  "stars": 0,
+  "beginner": true,
+  "description": "News articles in easy (~N4) Japanese",
+  "price": "free",
+  "tech": "website",
+  "kind": "study",
+  "language": "Japanese",
+  "updated": "yes",
+  "link_extra": [],
+  "notes": [
+   [
+    {
+     "text": "New articles every weekday, with option to show/hide furigana, and voiceover!"
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Shirabe Jisho",
+  "href": "https://apps.apple.com/us/app/shirabe-jisho/id1005203380",
+  "stars": 0,
+  "beginner": false,
+  "description": "mobile dictionary with lists and flashcards",
+  "price": "free",
+  "tech": "app (iOS)",
+  "kind": "dictionary",
+  "language": "English",
+  "updated": "yes",
+  "link_extra": [],
+  "notes": [
+   [
+    {
+     "text": "100% offline after the dictionary is downloaded!"
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Nihongo no Mori",
+  "href": "https://www.youtube.com/channel/UCVx6RFaEAg46xfAsD2zz16w",
+  "stars": 0,
+  "beginner": false,
+  "description": "Youtube channel",
+  "price": "free",
+  "tech": "YT channel",
+  "kind": "study",
+  "language": "Japanese",
+  "updated": "yes",
+  "link_extra": [],
+  "notes": [
+   [
+    {
+     "text": "Great N3, N2, N1 lessons, all taught in Japanese. Check out the "
+    },
+    {
+     "text": "まとめシリーズ",
+     "href": "https://www.youtube.com/playlist?list=PLINFE8v4DOhvme_pDhRcAFzmfJUnrJb9k"
+    },
+    {
+     "text": " playlist to find a good まとめ video :)"
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Jisho",
+  "href": "http://jisho.org/",
+  "stars": 0,
+  "beginner": false,
+  "description": "online dictionary with a corpus of example sentences",
+  "price": "free",
+  "tech": "website",
+  "kind": "dictionary",
+  "language": "English",
+  "updated": "yes",
+  "link_extra": [],
+  "notes": [
+   [
+    {
+     "text": "Has a great radical/component search!"
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Dictionary of Japanese Grammar",
+  "href": null,
+  "stars": 0,
+  "beginner": false,
+  "description": "Construction and example sentences of thousands of grammar patterns",
+  "price": "website free; book series paid",
+  "tech": "website; books",
+  "kind": "study",
+  "language": "English",
+  "updated": "no",
+  "link_extra": [
+   {
+    "text": "Website (unofficial)",
+    "href": "https://core6000.neocities.org/dojg/"
+   },
+   {
+    "text": "　・・　"
+   },
+   {
+    "text": "Review of physical books",
+    "href": "https://www.tofugu.com/reviews/dictionary-of-basic-japanese-grammar/"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "text": "The website is unofficial(tm), and there is more detail and explanation in the books, check out the review. From reading the intermediate volume, I highly recommend!"
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Real Kana",
+  "href": "https://www.realkana.com/",
+  "stars": 0,
+  "beginner": true,
+  "description": "practice かな and customize which characters, what order, and what typeface",
+  "price": "free",
+  "tech": "website",
+  "kind": "study",
+  "language": "English",
+  "updated": "no",
+  "link_extra": [],
+  "notes": []
+ },
+ {
+  "name": "Tadoku",
+  "href": "https://tadoku.org/japanese/en/free-books-en/",
+  "stars": 0,
+  "beginner": true,
+  "description": "Graded readers, short stories starting from absolute beginner to intermediate",
+  "price": "free",
+  "tech": "website",
+  "kind": "study",
+  "language": "English",
+  "updated": "yes?",
+  "link_extra": [],
+  "notes": []
+ },
+ {
+  "name": "weblio",
+  "href": "https://www.weblio.jp/",
+  "stars": 0,
+  "beginner": false,
+  "description": "Japanese-language dictionary and thesaurus",
+  "price": "free",
+  "tech": "website",
+  "kind": "dictionary",
+  "language": "Japanese",
+  "updated": "yes",
+  "link_extra": [],
+  "notes": []
+ },
+ {
+  "name": "Jimaku Player",
+  "href": "https://www.reddit.com/r/LearnJapanese/comments/r5rvdr/how_to_upload_japanese_subtitles_to_crunchyroll/",
+  "stars": 0,
+  "beginner": false,
+  "description": "Add Japanese subtitles to Crunchyroll",
+  "price": "free (though Crunchyroll is paid)",
+  "tech": "browser extension",
+  "kind": "tool",
+  "language": "N/A",
+  "updated": "yes?",
+  "link_extra": [],
+  "notes": [
+   [
+    {
+     "text": "You will need to source your own subtitles... (not hard to do, check the link)"
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Online Japanese Accent Dictionary",
+  "href": "https://www.gavo.t.u-tokyo.ac.jp/ojad/eng/search/index",
+  "stars": 0,
+  "beginner": false,
+  "description": "corpus of Japanese pitch-accent patterns by word",
+  "price": "free",
+  "tech": "website",
+  "kind": "data",
+  "language": "English, Japanese (and many others)",
+  "updated": "not sure",
+  "link_extra": [],
+  "notes": [
+   [
+    {
+     "text": "What the heck is pitch accent? "
+    },
+    {
+     "text": "Read here",
+     "href": "https://www.kanshudo.com/howto/pitch"
+    },
+    {
+     "text": "!"
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Migaku Pitch Trainer",
+  "href": "https://pitch-demo.migaku.io/",
+  "stars": 0,
+  "beginner": false,
+  "description": "study Tokyo pitch accent patterns by vocab (by SRS?)",
+  "price": "free",
+  "tech": "website",
+  "kind": "study",
+  "language": "English",
+  "updated": "yes",
+  "link_extra": [],
+  "notes": [
+   [
+    {
+     "text": "paid"
+    }
+   ]
+  ]
+ },
+ {
+  "name": "福娘童話集 (Hukumusume)",
+  "href": "http://hukumusume.com/douwa/index.html",
+  "stars": 0,
+  "beginner": false,
+  "description": "read and listen to Japanese fairytales",
+  "price": "free",
+  "tech": "website",
+  "kind": "study",
+  "language": "Japanese",
+  "updated": "yes",
+  "link_extra": [],
+  "notes": [
+   [
+    {
+     "text": "there is an English version of the website, but all the stories are translated, as well"
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Nihongo o Narau",
+  "href": "http://www.learn-japanese.info/",
+  "stars": 0,
+  "beginner": false,
+  "description": "full introductory level online textbook, with lessons on kana, vocab, and grammar",
+  "price": "free",
+  "tech": "website",
+  "kind": "study",
+  "language": "English",
+  "updated": "no",
+  "link_extra": [],
+  "notes": []
+ },
+ {
+  "name": "にほんごできます。",
+  "href": "https://www.erin.jpf.go.jp/",
+  "stars": 0,
+  "beginner": false,
+  "description": "introductory level series of video skits",
+  "price": "free",
+  "tech": "website",
+  "kind": "study",
+  "language": "Japanese",
+  "updated": "yes",
+  "link_extra": [],
+  "notes": [
+   [
+    {
+     "text": "by the Japan Foundation"
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Maggie Sensei",
+  "href": "https://maggiesensei.com/",
+  "stars": 0,
+  "beginner": false,
+  "description": "blog answering learner questions about how to use specific vocab/grammar items",
+  "price": "free",
+  "tech": "website",
+  "kind": "study",
+  "language": "English",
+  "updated": "yes",
+  "link_extra": [],
+  "notes": []
+ },
+ {
+  "name": "すぐにわかるスマホの文字入力",
+  "href": "https://www.qtmobile.jp/guide/text_input/",
+  "stars": 0,
+  "beginner": false,
+  "description": "learn how to use the 9-key かな keyboard on your cell phone",
+  "price": "free",
+  "tech": "webpage",
+  "kind": "practical",
+  "language": "Japanese",
+  "updated": "no",
+  "link_extra": [],
+  "notes": []
+ },
+ {
+  "name": "Japan Foundation USA Digital Library",
+  "href": null,
+  "stars": 0,
+  "beginner": false,
+  "description": "sign up for a free JFUSA library card to get access to Japan-related books, including manga and textbooks",
+  "price": "free",
+  "tech": "app, website",
+  "kind": "multi",
+  "language": "English, Japanese",
+  "updated": "yes",
+  "link_extra": [
+   {
+    "text": "https://www.jflalc.org/libby",
+    "href": "https://www.jflalc.org/libby"
+   },
+   {
+    "text": " (info); "
+   },
+   {
+    "text": "https://lp.constantcontactpages.com/sv/NInBYCE/jfod",
+    "href": "https://lp.constantcontactpages.com/sv/NInBYCE/jfod"
+   },
+   {
+    "text": " (sign up)"
+   }
+  ],
+  "notes": [
+   [
+    {
+     "text": "short wait period to get card approved; operates through Libby website and app"
+    }
+   ]
+  ]
+ },
+ {
+  "name": "350 Japanese Counters Grouped by Usefulness",
+  "href": "https://www.tofugu.com/japanese/japanese-counters-list/",
+  "stars": 0,
+  "beginner": false,
+  "description": "so which counters do I ACTUALLY have to memorize?",
+  "price": "free",
+  "tech": "webpage",
+  "kind": "study",
+  "language": "English",
+  "updated": "no",
+  "link_extra": [],
+  "notes": [
+   [
+    {
+     "text": "on Tofugu"
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Japanese Conjugation Practice",
+  "href": "https://baileysnyder.com/jconj/",
+  "stars": 0,
+  "beginner": false,
+  "description": "Drill conjugation patterns",
+  "price": "free",
+  "tech": "website",
+  "kind": "study",
+  "language": "English",
+  "updated": "no",
+  "link_extra": [],
+  "notes": []
+ },
+ {
+  "name": "助数詞を練習",
+  "href": "https://www.jyosuushi.com/",
+  "stars": 0,
+  "beginner": false,
+  "description": "Drill common counters based on level and usage",
+  "price": "free",
+  "tech": "website",
+  "kind": "study",
+  "language": "English",
+  "updated": "yes",
+  "link_extra": [],
+  "notes": []
+ },
+ {
+  "name": "Number Listening Practice",
+  "href": "https://langpractice.com/japanese/numbers/listening#1,0,10",
+  "stars": 0,
+  "beginner": false,
+  "description": "Drill listening to numbers within custom ranges, e.g. 0-100 or 10k-10m",
+  "price": "free",
+  "tech": "website",
+  "kind": "study",
+  "language": "English",
+  "updated": "?",
+  "link_extra": [],
+  "notes": []
+ },
+ {
+  "name": "JLPT先生",
+  "href": "https://jlptsensei.com/",
+  "stars": 0,
+  "beginner": false,
+  "description": "Grammar reference",
+  "price": "free",
+  "tech": "website",
+  "kind": "study",
+  "language": "English",
+  "updated": "",
+  "link_extra": [],
+  "notes": []
+ },
+ {
+  "name": "jtest4you",
+  "href": "https://japanesetest4you.com/",
+  "stars": 0,
+  "beginner": false,
+  "description": "JLPT practice questions",
+  "price": "free",
+  "tech": "website",
+  "kind": "study",
+  "language": "English",
+  "updated": "no?",
+  "link_extra": [],
+  "notes": [
+   [
+    {
+     "text": "Other websites are also around!"
+    }
+   ]
+  ]
+ },
+ {
+  "name": "Wikipedia - Chinese Character Classification",
+  "href": "https://en.wikipedia.org/wiki/Chinese_character_classification",
+  "stars": 0,
+  "beginner": false,
+  "description": "Article on categories of kanji",
+  "price": "free",
+  "tech": "website",
+  "kind": "study",
+  "language": "English",
+  "updated": "yes",
+  "link_extra": [],
+  "notes": [
+   [
+    {
+     "text": "Essential reading to understand how kanji work! But mostly just for enrichment"
+    }
+   ]
+  ]
+ }
+]

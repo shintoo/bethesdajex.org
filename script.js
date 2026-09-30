@@ -61,6 +61,7 @@ function renderDates() {
     var li = el("li", "date");
 
     var day = el("div", "date-day", null, String(d.getDate()));
+    day.appendChild(el("span", "date-unit", "ja", "日"));
     var meta = el("div", "date-meta");
 
     var month = el("div", "date-month");
@@ -71,7 +72,7 @@ function renderDates() {
     if (cancelled) {
       li.classList.add("is-cancelled");
       time.appendChild(el("span", null, "en", "Cancelled"));
-      time.appendChild(el("span", null, "ja", "休会"));
+      time.appendChild(el("span", null, "ja", "お休み"));
     } else {
       time.appendChild(el("span", null, "en", "Wednesday · 6–7pm"));
       time.appendChild(el("span", null, "ja", "水曜日・午後6時〜7時"));
