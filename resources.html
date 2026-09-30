@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Learning Resources · Bethesda JEX</title>
+  <meta name="description" content="A list of resources for learning Japanese, from Bethesda JEX.">
+
+  <script>
+    (function () {
+      var lang;
+      try { lang = localStorage.getItem("lang"); } catch (e) {}
+      if (lang !== "en" && lang !== "ja") {
+        lang = (navigator.language || "").toLowerCase().indexOf("ja") === 0 ? "ja" : "en";
+      }
+      document.documentElement.setAttribute("data-lang", lang);
+      document.documentElement.lang = lang;
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="top">
+    <a class="wordmark" href="/">Bethesda JEX</a>
+    <a class="top-link" href="resources.html" aria-current="page">
+      <span lang="en">Resources</span>
+      <span lang="ja">学習リソース</span>
+    </a>
+    <nav class="lang-toggle" aria-label="Language">
+      <button type="button" data-set-lang="en">EN</button>
+      <button type="button" data-set-lang="ja">日本語</button>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="page-head">
+      <h1>
+        <span lang="en">Learning resources</span>
+        <span lang="ja">学習リソース</span>
+      </h1>
+      <p lang="en">Note that these are relatively subjective, arbitrary, etc. Everyone has a different study method that works for them, and it may take time and experimentation to determine what tools are best for your learning. So explore and see what is out there!!</p>
+      <p lang="ja">［ここに日本語の説明を入れてください。］</p>
+    </section>
+
+    <div class="filters">
+      <input type="search" id="res-search" autocomplete="off"
+             placeholder="Search · 検索" aria-label="Search">
+      <div class="filter-buttons">
+        <button type="button" data-filter="beginner" aria-pressed="false">
+          <span lang="en">Beginner-friendly</span>
+          <span lang="ja">初心者向け</span>
+        </button>
+        <button type="button" data-filter="free" aria-pressed="false">
+          <span lang="en">Free</span>
+          <span lang="ja">無料</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Filled in by resources.js from learning_resources.csv. -->
+    <div id="resources"></div>
+
+    <noscript>
+      <p><a href="learning_resources.csv">learning_resources.csv</a></p>
+    </noscript>
+
+  </main>
+
+  <footer class="bottom">
+    <p>Bethesda JEX · Bethesda, MD</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="resources.js"></script>
+</body>
+</html>
