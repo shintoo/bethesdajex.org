@@ -1,0 +1,279 @@
+:root {
+  --paper: #ffffff;
+  --ink: #111318;
+  --muted: #6a6f78;
+  --accent: #bc002d;
+  --wash: #f2f2f2;
+
+  --gutter: 20px;
+  --max: 880px;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "M PLUS 1", "Hiragino Sans", "Yu Gothic", system-ui, sans-serif;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+/* Language toggle: hide whichever language isn't selected. */
+html[data-lang="en"] body [lang="ja"],
+html[data-lang="ja"] body [lang="en"] {
+  display: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+a:hover {
+  color: var(--ink);
+}
+
+main,
+.top,
+.bottom {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+/* ---------- Header ---------- */
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.wordmark {
+  color: var(--ink);
+  font-weight: 800;
+  font-size: 18px;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
+
+.lang-toggle {
+  display: flex;
+  gap: 4px;
+}
+
+.lang-toggle button {
+  font: inherit;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--muted);
+  background: none;
+  border: 0;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.lang-toggle button[aria-pressed="true"] {
+  color: var(--paper);
+  background: var(--accent);
+}
+
+/* ---------- Hero ---------- */
+
+.hero {
+  padding-top: 40px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: clamp(34px, 9vw, 76px);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+}
+
+.hero-when {
+  margin: 20px 0 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.hero-img {
+  width: calc(100% + 2 * var(--gutter));
+  max-width: none;
+  margin: 40px calc(-1 * var(--gutter)) 0;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+/* ---------- Sections ---------- */
+
+section + section {
+  margin-top: 88px;
+}
+
+.label {
+  margin: 0 0 24px;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+/* ---------- Intro ---------- */
+
+.intro-body {
+  display: grid;
+  gap: 32px;
+}
+
+.intro-text p {
+  margin: 0 0 1em;
+  font-size: 20px;
+}
+
+.intro-img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+/* ---------- Meetings ---------- */
+
+.where {
+  margin: 0 0 40px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.where a {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.dates {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.date {
+  display: grid;
+  grid-template-columns: 84px 1fr;
+  column-gap: 18px;
+  align-items: baseline;
+  padding: 14px 0;
+}
+
+.date-day {
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 1;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.date-meta {
+  line-height: 1.35;
+}
+
+.date-month {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.date-time {
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.date.is-next .date-day,
+.date.is-next .date-month {
+  color: var(--accent);
+}
+
+.date.is-next .date-day {
+  font-size: 64px;
+}
+
+.next-tag {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 8px;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: var(--paper);
+  background: var(--accent);
+  vertical-align: 3px;
+}
+
+.date.is-cancelled .date-day,
+.date.is-cancelled .date-month {
+  color: var(--muted);
+  text-decoration: line-through;
+  text-decoration-thickness: 3px;
+}
+
+.add-cal {
+  margin: 32px 0 0;
+  font-weight: 500;
+}
+
+/* ---------- Social ---------- */
+
+.big-link {
+  font-size: clamp(24px, 6vw, 36px);
+  font-weight: 800;
+  word-break: break-word;
+}
+
+/* ---------- Footer ---------- */
+
+.bottom {
+  margin-top: 120px;
+  padding-bottom: 40px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+/* ---------- Wider screens ---------- */
+
+@media (min-width: 720px) {
+  :root { --gutter: 32px; }
+
+  .hero { padding-top: 72px; }
+
+  .hero-img {
+    width: 100%;
+    margin: 56px 0 0;
+    aspect-ratio: 16 / 9;
+  }
+
+  .intro-body {
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: start;
+  }
+
+  section + section { margin-top: 120px; }
+}
+
+.nowrap { white-space: nowrap; }

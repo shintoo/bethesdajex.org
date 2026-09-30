@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bethesda JEX</title>
+  <meta name="description" content="Japanese–English language exchange in Bethesda, MD. 3rd Wednesday of every month at the Connie Morella Library.">
+
+  <!-- Pick the language before the page draws, so it doesn't flash both. -->
+  <script>
+    (function () {
+      var lang;
+      try { lang = localStorage.getItem("lang"); } catch (e) {}
+      if (lang !== "en" && lang !== "ja") {
+        lang = (navigator.language || "").toLowerCase().indexOf("ja") === 0 ? "ja" : "en";
+      }
+      document.documentElement.setAttribute("data-lang", lang);
+      document.documentElement.lang = lang;
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="top">
+    <a class="wordmark" href="/">Bethesda JEX</a>
+    <nav class="lang-toggle" aria-label="Language">
+      <button type="button" data-set-lang="en">EN</button>
+      <button type="button" data-set-lang="ja">日本語</button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <h1>
+        <span lang="en">Japanese–English<br>Exchange in Bethesda</span>
+        <span lang="ja">ベセスダ<br>日英会話サークル</span>
+      </h1>
+      <p class="hero-when">
+        <span lang="en">3rd Wednesday of every month · <span class="nowrap">6–7pm</span></span>
+        <span lang="ja">毎月第3水曜日・午後6時〜7時</span>
+      </p>
+      <img class="hero-img" src="images/hero.svg" alt="">
+    </section>
+
+    <!-- ===== Intro ===== -->
+    <section class="intro" id="about">
+      <h2 class="label">
+        <span lang="en">About</span>
+        <span lang="ja">について</span>
+      </h2>
+      <div class="intro-body">
+        <div class="intro-text">
+          <p lang="en">[Short intro goes here — who we are, who it's for, what happens at a meeting.]</p>
+          <p lang="ja">［ここに紹介文を入れてください。］</p>
+        </div>
+        <img class="intro-img" src="images/intro.svg" alt="">
+      </div>
+    </section>
+
+    <!-- ===== Meetings ===== -->
+    <section class="meetings" id="meetings">
+      <h2 class="label">
+        <span lang="en">Meetings</span>
+        <span lang="ja">開催日</span>
+      </h2>
+
+      <p class="where">
+        <span lang="en">Connie Morella Library</span>
+        <span lang="ja">コニー・モレラ図書館</span>
+        <br>
+        <a href="https://maps.google.com/?q=Connie+Morella+Library,+7400+Arlington+Rd,+Bethesda,+MD+20814" target="_blank" rel="noopener">7400 Arlington Rd, Bethesda, MD 20814</a>
+      </p>
+
+      <!-- Filled in by script.js. -->
+      <ol class="dates" id="dates"></ol>
+
+      <noscript>
+        <p>Every 3rd Wednesday, 6–7pm. / 毎月第3水曜日、午後6時〜7時。</p>
+      </noscript>
+
+      <p class="add-cal">
+        <a href="events.ics" download>
+          <span lang="en">Add to your calendar</span>
+          <span lang="ja">カレンダーに追加</span>
+        </a>
+      </p>
+    </section>
+
+    <!-- ===== Social ===== -->
+    <section class="social" id="social">
+      <h2 class="label">
+        <span lang="en">Follow us</span>
+        <span lang="ja">フォローする</span>
+      </h2>
+      <a class="big-link" href="https://www.instagram.com/bethesdajex/" target="_blank" rel="noopener">Instagram @bethesdajex</a>
+    </section>
+
+  </main>
+
+  <footer class="bottom">
+    <p>Bethesda JEX · Bethesda, MD</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
